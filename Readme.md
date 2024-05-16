@@ -84,7 +84,7 @@ var response = apiClient.Execute(queryOptions);
 if(response.error != null) {
 	Console.WriteLine(response.error);
 } else {
-    var jsonResponse = JsonConvert.SerializeObject(response.data, Newtonsoft.Json.Formatting.Indented);
+    var jsonResponse = JsonConvert.SerializeObject(response, Newtonsoft.Json.Formatting.Indented);
     Console.WriteLine(jsonResponse);
 }
 ```
@@ -100,16 +100,16 @@ if(response.error != null) {
     "count": 10,
     "complexity": "strong",
     "passwords": [
-      "YtkK-ka6AFjwABrkyeA8#T#=bR+fP6",
-      "XmRO.#ZEWIK.hq[r^Ho1H+^PoN&bD",
-      "vQxltLdsA[N[{Rn>2/Z%[[c&n5dGmO",
-      "D.n@9D:DC269@nkZGfKo*,<*k&X(H",
-      "VnU0/u/q|^h)K%8'1!Kk,;{!B9zT{",
-      "fH)&Ix;M53itO1AImKFRC$#tp}xC*e",
-      "e]?#yw'[=Z)d#,G-mr)'=oDGH2MUx}",
-      "yyw_3?{aNaXhHl2K6U7G#.0U4<3en",
-      "kI!nr2td$BaD,|ihbJNI0z-*-nEIL",
-      "<RV*twx@vn-z@%B{gt(mWGrX9Hj4em"
+      "$a@4uT|s+0zqiZh3:1%o?Mv$i24b",
+      ",JfD@L@dhuAxhg70Rkvbp6(^W:P^<",
+      "AX3np?l|U,(}tr;mdA,^T:xVg(].?",
+      "08B163wLVH];5bi!9YAcq[kVQ!|MX",
+      "5r|ShrOS<-^EZ^&%e$RzsU8kvYQ^",
+      "rRl2iu*?m)*ZPApyKNb=LB(<BC_!&",
+      ")c@1].S>{LX87|0I@IZ=@q5M&0[3#",
+      "?riE=t$1mV0m|hrTPR/|3l$mNXo#",
+      ")U1.htVhS>m7Z:V'IC*0,}z')!8x-[",
+      "g=hoi#saO?G/os4k4#{G*z<n_hy<W"
     ]
   }
 }
