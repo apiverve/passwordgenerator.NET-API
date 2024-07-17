@@ -7,7 +7,7 @@ namespace APIVerve
 public class data
 {
     [JsonProperty("length")]
-    public int length { get; set; }
+    public string length { get; set; }
 
     [JsonProperty("count")]
     public int count { get; set; }
