@@ -70,7 +70,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new passwordgeneratorQueryOptions {
+var queryOptions = new PasswordGeneratorQueryOptions {
   count = 10,
   length = 12,
   complexity = "strong"
@@ -100,18 +100,19 @@ if(response.error != null) {
     "count": 10,
     "complexity": "strong",
     "passwords": [
-      "VvLF-#sN^)X+cwsLG$L/0)DX76Z,d",
-      "*fNW3r6PN#a_HE1yTp8Yqliz&=67{",
-      "vxVU+(T-2X$FZaGw.1Tu4_paA!WPCf",
-      "Ic1YbV)Z@[Wbt=_FMo1*cwQ]j'Wl]",
-      "3i,qiyQbe6j{,9%^|OQd'Sh8_L6Xc",
-      "f&EH?eSJ8by=w}/4Z{yGvS'j+*wq^h",
-      "yW+_j1LBh]Bi#jVtkz';OGIaq+$9@",
-      "F-EXq0.S+Hz,HhfZUv&Na^j8sPfL)C",
-      "''(y:U0|s.4%$0f[ti_+lta6Zn':Q:",
-      "@tz]p11OC2TI?x3x]EjF8q;{fn.=(8"
+      "U)Oj]lRd21D)blTLHLl3lKG^j)W,Dx",
+      "p,rYFaQGP@B}yfZybgp!7zlH9vE=[I",
+      "Y#j0Y8}mc/WS2['.^-5GpLegHK;^n$",
+      "=3L-:/4OmNO5x]8?:v@F)']l.V7G$K",
+      "npg0T0Yw+5A4=PG-1%OQ'@6el4uKXH",
+      "Nazx+uDX-V.)zJ2v][Umt4I6u3{hKd",
+      ";19[q?U6,'b:j#OO}&hi=bNK!Ydtx",
+      "Lz?E!?YK$F8'hmV}DmKB:&U(]7J'U-",
+      "=kc[XW8I42j],'cPV4P7v_e-SR2?",
+      "sNY3v;G(.Nw'EX$Duz!UD53%l@g)"
     ]
-  }
+  },
+  "code": 200
 }
 ```
 
